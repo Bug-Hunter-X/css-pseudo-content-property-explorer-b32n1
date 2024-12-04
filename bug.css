@@ -1,0 +1,12 @@
+The following CSS code snippet demonstrates an issue where a pseudo-element's content property is not working as intended. It uses the `::before` pseudo-element to add some text before an element but it does not work because of a missing content declaration.  It leads to unexpected behavior or no visible effect.:
+
+```css
+div {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+div::before {
+  content: "Text should appear here";
+}
+```
