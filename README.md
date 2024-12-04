@@ -1,0 +1,3 @@
+# CSS Pseudo-element Content Property Issue
+
+This repository demonstrates a common issue encountered when working with CSS pseudo-elements and their `content` property.  The `bug.css` file contains a simple CSS rule where a `::before` pseudo-element is used to add text before a `<div>`. However, the expected text does not render. The solution is provided in `bugSolution.css`.  This issue highlights the importance of correctly setting the `content` property and understanding how pseudo-elements function within the CSS context.
